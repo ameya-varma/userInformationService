@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.commonUserInfo.com/Schemas"
+xmlns:storyBo="https://www.commonUserInfo.com/Schemas"
+elementFormDefault="qualified"
+version="3.5.0.0">
+
+<xs:complexType name="userInfo">
+<xs:sequence>
+	<xs:element name="googleUserId">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="googleUserEmail">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+</xs:schema>

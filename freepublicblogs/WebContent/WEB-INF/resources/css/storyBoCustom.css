@@ -1,0 +1,107 @@
+ .row-storyboPage{
+ 	border-left: solid thin #323232;
+ 	border-right: solid thin #323232;
+ 	border-top:none;
+ 	border-bottom:none;
+ 	/* background-color: #F9F9F9 !important;	 */
+ }
+ 
+.row-elementRow{
+ 	padding: 10px !important;
+ }
+ 
+ .container-storybotitle{
+ 	padding-top: 30px;
+ }
+ 
+ 
+.glyphicon-ok-saveblog{
+	
+	color: #00FF99 !important;
+}
+
+.glyphicon-remove-deleteblog{
+	color: #E60000 !important;	
+}
+
+.btn-group, .btn-default{
+	border: none;
+}
+
+.btn-default-sectionsToggle
+{
+	background-color: #2D2F32 !important;
+	color: white !important;
+	font-weight: bold;
+	width: 150px;
+	font-size: large;
+}
+
+.logoTextHeaders{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.glyphicon-chevron-down-sections{
+	style="font-size: 15px !important; 
+	color: #85D6FF !important;"	
+}
+
+.thumnail-storyboImage input[type=file]{
+	position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: alpha(opacity=0) !important;
+    opacity: 0 !important;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    display: block;
+	
+}
+
+.btn-default-pageButton{
+	border: solid thin black;
+	font: bold;
+	width: 100%;
+}
+
+
+.row-logo{
+	padding-bottom: 0px;
+}
+
+.panel-default-logo{
+	color: white;
+	font-weight: bolder;
+	font-size: x-large;
+	height: 35px;
+	background-color: #85D6FF;
+	padding-top: 0px;
+	border: none;
+	}
+	
+.logoText{
+	padding-top: 10px;
+	padding-left: 30px;
+	
+	}
+	
+#profilebanner{
+	
+	padding-top: 20px;
+	padding-left: 30px;
+}
+	
+.btn-default-menu{
+	border: none;
+	color: #00FF99;
+	font-weight: bold;
+}	
+
+.btn-default-pub{
+	border: none;
+	width: 100%;
+}

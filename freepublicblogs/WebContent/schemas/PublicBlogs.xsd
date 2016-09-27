@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.publicBlog.com/Schemas"
+xmlns:publicBlog="https://www.publicBlog.com/Schemas"
+elementFormDefault="qualified"
+version="3.5.0.0">
+
+
+<xs:element name="Blog" type="publicBlog:Blog" ></xs:element>
+
+
+<xs:complexType name="Blog">
+<xs:sequence>
+	<xs:element  name="Title" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="150"></xs:maxLength>
+			</xs:restriction>
+			</xs:simpleType>
+	</xs:element>
+	<xs:element  name="AuthorEmail" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element  name="ImageURL" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				
+			</xs:restriction>
+			</xs:simpleType>
+	</xs:element>
+	<xs:element  name="ImageKey" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				
+			</xs:restriction>
+			</xs:simpleType>
+	</xs:element>
+	<xs:element name="Description" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2000"></xs:maxLength>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element  name="BlogUrl" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="150"></xs:maxLength>
+			</xs:restriction>
+			</xs:simpleType>
+	</xs:element>
+	<xs:element  name="LogoutURL" maxOccurs="1">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="150"></xs:maxLength>
+			</xs:restriction>
+			</xs:simpleType>
+	</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+</xs:schema>
