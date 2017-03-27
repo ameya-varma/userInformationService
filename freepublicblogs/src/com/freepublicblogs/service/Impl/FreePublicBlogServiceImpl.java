@@ -20,11 +20,19 @@ import com.google.appengine.api.images.ImagesServiceFactory;
 import com.google.appengine.api.images.ServingUrlOptions;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
-
+/**
+*This class provides implementation for common features
+*Author Ameya Varma
+*/
 public class FreePublicBlogServiceImpl {
 	
 	private static UserService userService = UserServiceFactory.getUserService( );
 	
+	/**
+	* This method is used to make a REST API call to the UserInformationService. It uses
+	* XML to exchange data
+	* Author Ameya Varma
+	*/
 	public static HashMap<String, String> handleUserLoginRequest(HttpServletRequest request)
 	{
 		UserInfo userInfo = new UserInfo();
@@ -69,7 +77,9 @@ public class FreePublicBlogServiceImpl {
 		
 	}
 	
-	
+	/**
+	*This method retrieves blog details
+	*/
 	public static Blog retrieveBlog()
 	{
 		Blog blog = null;
