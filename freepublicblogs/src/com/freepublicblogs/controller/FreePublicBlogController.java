@@ -31,6 +31,10 @@ import com.google.appengine.api.images.ImagesService;
 import com.google.appengine.api.images.ImagesServiceFactory;
 import com.google.appengine.api.images.ServingUrlOptions;
 
+/**
+* The main controller class that handles, login, blog creation, saving images, publishing blogs
+* and viewing published blogs
+*/
 @Controller
 public class FreePublicBlogController {
 
